@@ -1,12 +1,14 @@
 public class leetcode1 {
 
     public static void main(String[] args) {
-
-        leetcode1 s = new leetcode1();
         int n[]={2,7,11,15};
         int ans=9;
         int out[];
         out=twoSum(n,ans);
+        for(int im=0;im<2;im++)
+        {
+            System.out.println(out[im]);
+        }
 
 
     }
